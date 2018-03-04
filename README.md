@@ -49,6 +49,17 @@ The dataset includes the following files:
 - 'features.txt' - List of 561 features measured in the input data
 - 'features_info.txt' - Descriptions of the 561 features
 
+
+The script run_analysis.R will do the following:
+1. Read and combine the columns for training dataset 
+2. Read and combine the columns for the test dataset
+3. Merge the test and training datasets 
+4. Select only columns with Mean and STD 
+5. Replaces Activity numbers with descriptive names
+6. Creates a data set with the average of each variable for each activity 
+   and each subject
+
+
 Notes: 
 ======
 - The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2).
