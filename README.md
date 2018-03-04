@@ -1,18 +1,18 @@
 # Getting_Cleaning_data
 Week 4 Programming assignment for Getting and Cleaning Data Course Project
 
-===================================================================================================
+================================================================================
 Smartphone-Based Recognition of Human Activities and Postural Transitions Data Set
 Version 2.1
-===================================================================================================
+================================================================================
 Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Luca Oneto(1) and Xavier Parra(2)
 1 - Smartlab, DIBRIS - Università  degli Studi di Genova, Genoa (16145), Italy. 
 2 - CETpD - Universitat Politècnica de Catalunya. Vilanova i la Geltrú (08800), Spain
 har '@' smartlab.ws 
 www.smartlab.ws
-===================================================================================================
+================================================================================
 
-The experiments were carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
+The experiments were carried out with a group of 30 volunteers within an age bracket of 19-48 years.
 They performed a protocol of activities composed of six basic activities: three static postures (standing, sitting, lying) and three dynamic activities 
 (walking, walking downstairs and walking upstairs). The experiment also included postural transitions that occurred between the static postures. 
 These are: stand-to-sit, sit-to-stand, sit-to-lie, lie-to-sit, stand-to-lie, and lie-to-stand. 
