@@ -32,6 +32,7 @@ http://archive.ics.uci.edu/ml/machine-learning-databases/00341/
 Description of the data can be found in:
 http://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions#
 
+The data was summarized by subject and activity (including postural transitions)
 Summary was done of the following records:
 Records of activity windows. Each one composed of:
 - A 561-feature vector with time and frequency domain variables. 
@@ -42,11 +43,11 @@ The dataset includes the following files:
 =========================================
 - 'README.txt'
 - 'summary.tx'  Summary of the mean and standard deviation features by student ID and activity (including postural transitions)
--'summary_names.txt' - List of column names and their descriptions (codebook) 
--'run_analysis.R' - R script to summarize the data
--'activity_labels.txt' - List of activities and postural transitions (1 to 12)
--'features.txt' - List of 561 features measured in the input data
--'features_info.txt' - Descriptions of the 561 features
+- 'summary_names.txt' - List of column names and their descriptions (codebook) 
+- 'run_analysis.R' - R script to summarize the data
+- 'activity_labels.txt' - List of activities and postural transitions (1 to 12)
+- 'features.txt' - List of 561 features measured in the input data
+- 'features_info.txt' - Descriptions of the 561 features
 
 Notes: 
 ======
