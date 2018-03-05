@@ -1,15 +1,20 @@
 # Getting_Cleaning_data
 Week 4 Programming assignment for Getting and Cleaning Data Course Project
 
+
 ================================================================================
+
 Smartphone-Based Recognition of Human Activities and Postural Transitions Data Set
 Version 2.1
+
 ================================================================================
+
 Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Luca Oneto(1) and Xavier Parra(2)
 1 - Smartlab, DIBRIS - Università  degli Studi di Genova, Genoa (16145), Italy. 
 2 - CETpD - Universitat Politècnica de Catalunya. Vilanova i la Geltrú (08800), Spain
 har '@' smartlab.ws 
 www.smartlab.ws
+
 ================================================================================
 
 The experiments were carried out with a group of 30 volunteers within an age bracket of 19-48 years.
@@ -28,22 +33,31 @@ with 0.3 Hz cutoff frequency was used. From each window, a vector of 561 feature
 domain. See 'features_info.txt' for more details. 
 
 This dataset is a summary of the measurements done from the above experiment that can be found in: 
+
 http://archive.ics.uci.edu/ml/machine-learning-databases/00341/
+
 Description of the data can be found in:
+
 http://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions#
 
-The data was summarized by subject and activity (including postural transitions) for each mean and standard deviation measurement. 
+
+The data was summarized by subject and activity (including postural transitions) and the mean calculated for each mean and standard deviation measurement. 
 
 Measurements records included:
+
 - A 561-feature vector with time and frequency domain variables. 
+
 - Its associated activity label and postural transitions 
+
 - An identifier of the subject who carried out the experiment.
+
 
 The dataset includes the following files:
 =========================================
-- 'README.txt'
-- 'summary.txt'  Summary of the mean and standard deviation features by student ID and activity (including postural transitions)
-- 'summary_names.txt' - List of column names and their descriptions (codebook) 
+
+- 'README.md'   -  Describes background information, files and description of script
+- 'summary.txt' -  Summary of the mean and standard deviation features by student ID and activity (including postural transitions)
+- 'CodeBook.md' - List of column names and their descriptions (codebook) 
 - 'run_analysis.R' - R script to summarize the data
 - 'activity_labels.txt' - List of activities and postural transitions (1 to 12)
 - 'features.txt' - List of 561 features measured in the input data
@@ -51,13 +65,20 @@ The dataset includes the following files:
 
 
 The script run_analysis.R will do the following:
+
 1. Read and combine the columns for training dataset 
+
 2. Read and combine the columns for the test dataset
+
 3. Merge the test and training datasets 
+
 4. Select only columns with Mean and STD 
+
 5. Replaces Activity numbers with descriptive names
+
 6. Creates a data set with the average of each variable for each activity 
    and each subject
+   
 
 
 Notes: 
@@ -93,4 +114,5 @@ Other Related Publications:
 - Jorge Luis Reyes-Ortiz, Alessandro Ghio, Xavier Parra-Llanas, Davide Anguita, Joan Cabestany, Andreu Català. Human Activity and Motion Disorder Recognition: Towards Smarter Interactive Cognitive Environments. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.  
 
 ==================================================================================================
+
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita and Xavier Parra. July 2015.
