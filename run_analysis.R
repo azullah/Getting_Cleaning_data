@@ -8,6 +8,12 @@
 ##    and each subject
 ## Load libraries
         library(dplyr)
+        if (!file.exists('HAPT Data Set')) {
+                dir.create('HAPT Data Set')
+        }
+## Download the zip file and unzip into " HAPT Data Set" folder        
+        download.file("http://archive.ics.uci.edu/ml/machine-learning-databases/00341/HAPT Data Set.zip", '.\\HAPT Data Set\\HAPT Data Set.zip')
+        unzip('.\\HAPT Data Set\\HAPT Data Set.zip', exdir =".\\HAPT Data Set")
         
         ## Read the X_test.txt data file delimited by white spaces
         X_test <- read.table(".\\HAPT Data Set\\Test\\X_test.txt")
@@ -73,3 +79,7 @@
 ##summarize table by subject and activity and find mean for each
         select_tbl <- group_by(select_tbl, subject, activity)
         summary_tbl <- summarise_all(select_tbl,mean,rm.na = TRUE)
+
+##write the output data from summary_tbl dataset
+        write.table(summary_tbl, ".\\HAPT Data Set\\summary.txt",row.names = FALSE)
+        
