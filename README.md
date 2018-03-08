@@ -4,44 +4,23 @@ Week 4 Programming assignment for Getting and Cleaning Data Course Project
 
 ================================================================================
 
-Smartphone-Based Recognition of Human Activities and Postural Transitions Data Set
-Version 2.1
+Human Activity Recognition Using Smartphones Dataset
+Version 1.0
 
 ================================================================================
 
-Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Luca Oneto(1) and Xavier Parra(2)
-1 - Smartlab, DIBRIS - Università  degli Studi di Genova, Genoa (16145), Italy. 
-2 - CETpD - Universitat Politècnica de Catalunya. Vilanova i la Geltrú (08800), Spain
-har '@' smartlab.ws 
-www.smartlab.ws
 
-================================================================================
-
-The experiments were carried out with a group of 30 volunteers within an age bracket of 19-48 years.
-They performed a protocol of activities composed of six basic activities: three static postures (standing, sitting, lying) and three dynamic activities 
-(walking, walking downstairs and walking upstairs). The experiment also included postural transitions that occurred between the static postures. 
-These are: stand-to-sit, sit-to-stand, sit-to-lie, lie-to-sit, stand-to-lie, and lie-to-stand. 
-All the participants were wearing a smartphone (Samsung Galaxy S II) on the waist during the experiment execution. 
-We captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz using the embedded accelerometer and gyroscope of the device. 
-The experiments were video-recorded to label the data manually. The obtained dataset was randomly partitioned into two sets, where 70% of the volunteers 
-was selected for generating the training data and 30% the test data. 
-
-The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec 
-and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a 
-Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter 
-with 0.3 Hz cutoff frequency was used. From each window, a vector of 561 features was obtained by calculating variables from the time and frequency 
-domain. See 'features_info.txt' for more details. 
 
 This dataset is a summary of the measurements done from the above experiment that can be found in: 
 
-http://archive.ics.uci.edu/ml/machine-learning-databases/00341/
+http://archive.ics.uci.edu/ml/machine-learning-databases/00240/
 
 Description of the data can be found in:
 
-http://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions#
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
-The data was summarized by subject and activity (including postural transitions) and the mean calculated for each mean and standard deviation measurement. 
+The data was summarized by subject and activity and the mean calculated for each mean and standard deviation measurement. 
 
 Measurements records included:
 
@@ -56,7 +35,7 @@ The dataset includes the following files:
 =========================================
 
 - 'README.md'   -  Describes background information, files and description of script
-- 'summary.txt' -  Summary of the mean and standard deviation features by student ID and activity (including postural transitions)
+- 'summary.txt' -  Summary of the mean and standard deviation features by student ID and activity 
 - 'CodeBook.md' - List of column names and their descriptions (codebook) 
 - 'run_analysis.R' - R script to summarize the data
 - 'activity_labels.txt' - List of activities and postural transitions (1 to 12)
@@ -72,7 +51,7 @@ The script run_analysis.R will do the following:
 
 3. Merge the test and training datasets 
 
-4. Select only columns with Mean and STD 
+4. Select only columns with mean() and std() in the names 
 
 5. Replaces Activity numbers with descriptive names
 

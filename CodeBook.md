@@ -13,161 +13,131 @@ knitr::opts_chunk$set(echo = TRUE)
 
 "activity"			- Activity and postural transition descriptions
 
-"TimeBodyAcc.Mean.1"		- Mean of Time Body Acceleration - Mean - X dimension 
+"TimeBodyAcc.mean.X"		- Mean of Time Body Acceleration - Mean - X dimension 
 
-"TimeBodyAcc.Mean.2"		- Mean of Time Body Acceleration - Mean - Y dimension
+"TimeBodyAcc.mean.Y"		- Mean of Time Body Acceleration - Mean - Y dimension
 
-"TimeBodyAcc.Mean.3"		- Mean of Time Body Acceleration - Mean - Z dimension
+"TimeBodyAcc.mean.Z"		- Mean of Time Body Acceleration - Mean - Z dimension
 
-"TimeGravityAcc.Mean.1"		- Mean of Time Gravity Acceleration - Mean - X dimension
+"TimeBodyAccJerk.mean.X"	- Mean of Time Body Acceleration Jerk - Mean - X dimension 
 
-"TimeGravityAcc.Mean.2"		- Mean of Time Gravity Acceleration - Mean - Y dimension 
+"TimeBodyAccJerk.mean.Y"	- Mean of Time Body Acceleration Jerk - Mean - Y dimension 
 
-"TimeGravityAcc.Mean.3"		- Mean of Time Gravity Acceleration - Mean - Z dimension 
+"TimeBodyAccJerk.mean.Z"	- Mean of Time Body Acceleration Jerk - Mean - Z dimension 
 
-"TimeBodyAccJerk.Mean.1"	- Mean of Time Body Acceleration Jerk - Mean - X dimension 
+"TimeBodyGyro.mean.X"		- Mean of Time Body Gyroscope - Mean - X dimension 
 
-"TimeBodyAccJerk.Mean.2"	- Mean of Time Body Acceleration Jerk - Mean - Y dimension 
+"TimeBodyGyro.mean.Y"		- Mean of Time Body Gyroscope - Mean - Y dimension 
 
-"TimeBodyAccJerk.Mean.3"	- Mean of Time Body Acceleration Jerk - Mean - Z dimension 
+"TimeBodyGyro.mean.Z"		- Mean of Time Body Gyroscope - Mean - Z dimension 
 
-"TimeBodyGyro.Mean.1"		- Mean of Time Body Gyroscope - Mean - X dimension 
+"TimeBodyGyroJerk.mean.X"	- Mean of Time Body Gyroscope Jerk - Mean - X dimension 
 
-"TimeBodyGyro.Mean.2"		- Mean of Time Body Gyroscope - Mean - Y dimension 
+"TimeBodyGyroJerk.mean.Y"	- Mean of Time Body Gyroscope Jerk - Mean - Y dimension 
 
-"TimeBodyGyro.Mean.3"		- Mean of Time Body Gyroscope - Mean - Z dimension 
+"TimeBodyGyroJerk.mean.Z"	- Mean of Time Body Gyroscope Jerk - Mean - Z dimension 
 
-"TimeBodyGyroJerk.Mean.1"	- Mean of Time Body Gyroscope Jerk - Mean - X dimension 
+"TimeBodyAccMag.mean"		- Mean of Time Body Acceleration magnitude - Mean 
 
-"TimeBodyGyroJerk.Mean.2"	- Mean of Time Body Gyroscope Jerk - Mean - Y dimension 
+"TimeGravityAccMag.mean"	- Mean of Time Gravity Acceleration magnitude - Mean 
 
-"TimeBodyGyroJerk.Mean.3"	- Mean of Time Body Gyroscope Jerk - Mean - Z dimension 
+"TimeBodyAccJerkMag.mean"	- Mean of Time Body Acceleration Jerk magnitude - Mean 
 
-"TimeBodyAccMag.Mean.1"		- Mean of Time Body Acceleration magnitude - Mean 
+"TimeBodyGyroMag.mean"	        - Mean of Time Body Gyroscope magnitude - Mean 
 
-"TimeGravityAccMag.Mean.1"	- Mean of Time Gravity Acceleration magnitude - Mean 
+"TimeBodyGyroJerkMag.mean"	- Mean of Time Body Gyroscope Jerk magnitude - Mean 
 
-"TimeBodyAccJerkMag.Mean.1"	- Mean of Time Body Acceleration Jerk magnitude - Mean 
+"FreqBodyAcc.mean.X"		- Mean of Frequency Body Acceleration - Mean - X dimension 
 
-"TimeBodyGyroMag.Mean.1"	- Mean of Time Body Gyroscope magnitude - Mean 
+"FreqBodyAcc.mean.Y"		- Mean of Frequency Body Acceleration - Mean - Y dimension 
 
-"TimeBodyGyroJerkMag.Mean.1"	- Mean of Time Body Gyroscope Jerk magnitude - Mean 
+"FreqBodyAcc.mean.Z"		- Mean of Frequency Body Acceleration - Mean - Z dimension 
 
-"FreqBodyAcc.Mean.1"		- Mean of Frequency Body Acceleration - Mean - X dimension 
+"FreqBodyAccJerk.mean.X"	- Mean of Frequency Body Acceleration Jerk - Mean - X dimension 
 
-"FreqBodyAcc.Mean.2"		- Mean of Frequency Body Acceleration - Mean - Y dimension 
+"FreqBodyAccJerk.mean.Y"	- Mean of Frequency Body Acceleration Jerk - Mean - Y dimension 
 
-"FreqBodyAcc.Mean.3"		- Mean of Frequency Body Acceleration - Mean - Z dimension 
+"FreqBodyAccJerk.mean.Z"	- Mean of Frequency Body Acceleration Jerk - Mean - Z dimension 
 
-"FreqBodyAcc.MeanFreq.1"	- Mean of Frequency Body Acceleration - Mean Frequency - X dimension 
+"FreqBodyGyro.mean.X"		- Mean of Frequency Body Gyroscope - Mean - X dimension 
 
-"FreqBodyAcc.MeanFreq.2"	- Mean of Frequency Body Acceleration - Mean Frequency - Y dimension 
+"FreqBodyGyro.mean.Y"		- Mean of Frequency Body Gyroscope - Mean - Y dimension 
 
-"FreqBodyAcc.MeanFreq.3"	- Mean of Frequency Body Acceleration - Mean Frequency - Z dimension 
+"FreqBodyGyro.mean.Z"		- Mean of Frequency Body Gyroscope - Mean - Z dimension 
 
-"FreqBodyAccJerk.Mean.1"	- Mean of Frequency Body Acceleration Jerk - Mean - X dimension 
+"FreqBodyAccMag.mean"		- Mean of Frequency Body Acceleration magnitude - Mean 
 
-"FreqBodyAccJerk.Mean.2"	- Mean of Frequency Body Acceleration Jerk - Mean - Y dimension 
+"FreqBodyBodyAccJerkMag.mean"	- Mean of Frequency Body Acceleration Jerk magnitude - Mean 
 
-"FreqBodyAccJerk.Mean.3"	- Mean of Frequency Body Acceleration Jerk - Mean - Z dimension 
+"FreqBodyBodyGyroMag.mean"	- Mean of Frequency Body Gyroscope magnitude - Mean 
 
-"FreqBodyAccJerk.MeanFreq.1"	- Mean of Frequency Body Acceleration Jerk - Mean Frequency - X dimension 
+"FreqBodyBodyGyroJerkMag.mean"	- Mean of Frequency Body Gyroscope Jerk magnitude - Mean 
 
-"FreqBodyAccJerk.MeanFreq.2"	- Mean of Frequency Body Acceleration Jerk - Mean Frequency - Y dimension 
+"TimeBodyAcc.std.X"		- Mean of Time Body Acceleration - Standard Deviation - X dimension 
 
-"FreqBodyAccJerk.MeanFreq.3"	- Mean of Frequency Body Acceleration Jerk - Mean Frequency - Z dimension 
+"TimeBodyAcc.std.Y"		- Mean of Time Body Acceleration - Standard Deviation - Y dimension 
 
-"FreqBodyGyro.Mean.1"		- Mean of Frequency Body Gyroscope - Mean - X dimension 
+"TimeBodyAcc.std.Z"		- Mean of Time Body Acceleration - Standard Deviation - Z dimension 
 
-"FreqBodyGyro.Mean.2"		- Mean of Frequency Body Gyroscope - Mean - Y dimension 
+"TimeGravityAcc.std.X"		- Mean of Time Gravity Acceleration - Standard Deviation - X dimension 
 
-"FreqBodyGyro.Mean.3"		- Mean of Frequency Body Gyroscope - Mean - Z dimension 
+"TimeGravityAcc.std.Y"		- Mean of Time Gravity Acceleration - Standard Deviation - Y dimension 
 
-"FreqBodyGyro.MeanFreq.1"	- Mean of Frequency Body Gyroscope - Mean Frequency- X dimension 
+"TimeGravityAcc.std.Z"		- Mean of Time Gravity Acceleration - Standard Deviation - Z dimension 
 
-"FreqBodyGyro.MeanFreq.2"	- Mean of Frequency Body Gyroscope - Mean Frequency- Y dimension 
+"TimeBodyAccJerk.std.X"		- Mean of Time Body Acceleration Jerk - Standard Deviation - X dimension 
 
-"FreqBodyGyro.MeanFreq.3"	- Mean of Frequency Body Gyroscope - Mean Frequency- Z dimension 
+"TimeBodyAccJerk.std.Y"		- Mean of Time Body Acceleration Jerk - Standard Deviation - Y dimension 
 
-"FreqBodyAccMag.Mean.1"		- Mean of Frequency Body Acceleration magnitude - Mean 
+"TimeBodyAccJerk.std.Z"		- Mean of Time Body Acceleration Jerk - Standard Deviation - Z dimension 
 
-"FreqBodyAccMag.MeanFreq.1"	- Mean of Frequency Body Acceleration magnitude - Mean Frequency
+"TimeBodyGyro.std.X"		- Mean of Time Body Gyroscope - Standard Deviation - X dimension 
 
-"FreqBodyAccJerkMag.Mean.1"	- Mean of Frequency Body Acceleration Jerk magnitude - Mean 
+"TimeBodyGyro.std.Y"		- Mean of Time Body Gyroscope - Standard Deviation - Y dimension 
 
-"FreqBodyAccJerkMag.MeanFreq.1"	- Mean of Frequency Body Acceleration Jerk magnitude - Mean Frequency
+"TimeBodyGyro.std.Z"		- Mean of Time Body Gyroscope - Standard Deviation - Z dimension 
 
-"FreqBodyGyroMag.Mean.1"	- Mean of Frequency Body Gyroscope magnitude - Mean 
+"TimeBodyGyroJerk.std.X"	- Mean of Time Body Gyroscope Jerk - Standard Deviation - X dimension 
 
-"FreqBodyGyroMag.MeanFreq.1"	- Mean of Frequency Body Gyroscope magnitude - Mean Frequency
+"TimeBodyGyroJerk.std.Y"	- Mean of Time Body Gyroscope Jerk - Standard Deviation - Y dimension 
 
-"FreqBodyGyroJerkMag.Mean.1"	- Mean of Frequency Body Gyroscope Jerk magnitude - Mean 
+"TimeBodyGyroJerk.std.Z"	- Mean of Time Body Gyroscope Jerk - Standard Deviation - Z dimension 
 
-"FreqBodyGyroJerkMag.MeanFreq.1"- Mean of Frequency Body Gyroscope Jerk magnitude - Mean Frequency
+"TimeBodyAccMag.std"		- Mean of Time Body Acceleration magnitude - Standard Deviation
 
-"TimeBodyAcc.STD.1"		- Mean of Time Body Acceleration - Standard Deviation - X dimension 
+"TimeGravityAccMag.std"	- Mean of Time Gravity Acceleration magnitude - Standard Deviation
 
-"TimeBodyAcc.STD.2"		- Mean of Time Body Acceleration - Standard Deviation - Y dimension 
+"TimeBodyAccJerkMag.std"	- Mean of Time Body Acceleration Jerk magnitude - Standard Deviation
 
-"TimeBodyAcc.STD.3"		- Mean of Time Body Acceleration - Standard Deviation - Z dimension 
+"TimeBodyGyroMag.std"		- Mean of Time Body Gyroscope magnitude - Standard Deviation
 
-"TimeGravityAcc.STD.1"		- Mean of Time Gravity Acceleration - Standard Deviation - X dimension 
+"TimeBodyGyroJerkMag.std"	- Mean of Time Body Gyroscope Jerk magnitude - Standard Deviation
 
-"TimeGravityAcc.STD.2"		- Mean of Time Gravity Acceleration - Standard Deviation - Y dimension 
+"FreqBodyAcc.std.X"		- Mean of Frequency Body Acceleration - Standard Deviation - X dimension 
 
-"TimeGravityAcc.STD.3"		- Mean of Time Gravity Acceleration - Standard Deviation - Z dimension 
+"FreqBodyAcc.std.Y"		- Mean of Frequency Body Acceleration - Standard Deviation - Y dimension 
 
-"TimeBodyAccJerk.STD.1"		- Mean of Time Body Acceleration Jerk - Standard Deviation - X dimension 
+"FreqBodyAcc.std.Z"		- Mean of Frequency Body Acceleration - Standard Deviation - Z dimension 
 
-"TimeBodyAccJerk.STD.2"		- Mean of Time Body Acceleration Jerk - Standard Deviation - Y dimension 
+"FreqBodyAccJerk.std.X"		- Mean of Frequency Body Acceleration Jerk - Standard Deviation - X dimension 
 
-"TimeBodyAccJerk.STD.3"		- Mean of Time Body Acceleration Jerk - Standard Deviation - Z dimension 
+"FreqBodyAccJerk.std.Y"		- Mean of Frequency Body Acceleration Jerk - Standard Deviation - Y dimension 
 
-"TimeBodyGyro.STD.1"		- Mean of Time Body Gyroscope - Standard Deviation - X dimension 
+"FreqBodyAccJerk.std.Z"		- Mean of Frequency Body Acceleration Jerk - Standard Deviation - Z dimension 
 
-"TimeBodyGyro.STD.2"		- Mean of Time Body Gyroscope - Standard Deviation - Y dimension 
+"FreqBodyGyro.std.X"		- Mean of Frequency Body Gyroscope - Standard Deviation - X dimension 
 
-"TimeBodyGyro.STD.3"		- Mean of Time Body Gyroscope - Standard Deviation - Z dimension 
+"FreqBodyGyro.std.Y"		- Mean of Frequency Body Gyroscope - Standard Deviation - Y dimension 
 
-"TimeBodyGyroJerk.STD.1"	- Mean of Time Body Gyroscope Jerk - Standard Deviation - X dimension 
+"FreqBodyGyro.std.Z"		- Mean of Frequency Body Gyroscope - Standard Deviation - Z dimension 
 
-"TimeBodyGyroJerk.STD.2"	- Mean of Time Body Gyroscope Jerk - Standard Deviation - Y dimension 
+"FreqBodyAccMag.std"		- Mean of Frequency Body Accelaration magnitude - Standard Deviation
 
-"TimeBodyGyroJerk.STD.3"	- Mean of Time Body Gyroscope Jerk - Standard Deviation - Z dimension 
+"FreqBodyBodyAccJerkMag.std"	- Mean of Frequency Body Accelaration Jerk magnitude - Standard Deviation
 
-"TimeBodyAccMag.STD.1"		- Mean of Time Body Acceleration magnitude - Standard Deviation
+"FreqBodyBodyGyroMag.std"	- Mean of Frequency Body Gyroscope magnitude - Standard Deviation
 
-"TimeGravityAccMag.STD.1"	- Mean of Time Gravity Acceleration magnitude - Standard Deviation
-
-"TimeBodyAccJerkMag.STD.1"	- Mean of Time Body Acceleration Jerk magnitude - Standard Deviation
-
-"TimeBodyGyroMag.STD.1"		- Mean of Time Body Gyroscope magnitude - Standard Deviation
-
-"TimeBodyGyroJerkMag.STD.1"	- Mean of Time Body Gyroscope Jerk magnitude - Standard Deviation
-
-"FreqBodyAcc.STD.1"		- Mean of Frequency Body Acceleration - Standard Deviation - X dimension 
-
-"FreqBodyAcc.STD.2"		- Mean of Frequency Body Acceleration - Standard Deviation - Y dimension 
-
-"FreqBodyAcc.STD.3"		- Mean of Frequency Body Acceleration - Standard Deviation - Z dimension 
-
-"FreqBodyAccJerk.STD.1"		- Mean of Frequency Body Acceleration Jerk - Standard Deviation - X dimension 
-
-"FreqBodyAccJerk.STD.2"		- Mean of Frequency Body Acceleration Jerk - Standard Deviation - Y dimension 
-
-"FreqBodyAccJerk.STD.3"		- Mean of Frequency Body Acceleration Jerk - Standard Deviation - Z dimension 
-
-"FreqBodyGyro.STD.1"		- Mean of Frequency Body Gyroscope - Standard Deviation - X dimension 
-
-"FreqBodyGyro.STD.2"		- Mean of Frequency Body Gyroscope - Standard Deviation - Y dimension 
-
-"FreqBodyGyro.STD.3"		- Mean of Frequency Body Gyroscope - Standard Deviation - Z dimension 
-
-"FreqBodyAccMag.STD.1"		- Mean of Frequency Body Accelaration magnitude - Standard Deviation
-
-"FreqBodyAccJerkMag.STD.1"	- Mean of Frequency Body Accelaration Jerk magnitude - Standard Deviation
-
-"FreqBodyGyroMag.STD.1"		- Mean of Frequency Body Gyroscope magnitude - Standard Deviation
+"FreqBodyBodyGyroJerkMag.std"   - Mean of Frequency Body Gyroscope Jerk Magnitude - Std Dev
 
 Notes: 
 ======
